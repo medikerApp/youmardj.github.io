@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Nav bar start -->
+  <nav class="navbar fixed-top navbar-light bg-light shadow-lg color-nav">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">Zakarieh F.</a>
+      <div class="dropdown">
+        <button class="btn btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end " aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#services">Services</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Nav bar end -->
+
+  <!-- Home section start -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-4 mt-md-0 ">
+          <div class="home-img text-center">
+            <div class="hover15">
+              <figure>
+                <img src="/img/profile-pic.png"
+                  class="rounded-circle unselected mx-auto d-block img-size mw-100 shadow-lg" alt="profile img">
+              </figure>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class=" text-muted mb-1 unselected"> Hello I'm </p>
+            <h1 class=" text-danger text-uppercase fs-1 fw-bold unselected">Software Engineer</h1>
+            <h2 class="fs-4">Zakarieh Fouad</h2>
+            <p class="mt-4 text-muted unselected">
+              I am a young & motivated developer. Challenges are the fuel of my days. I like to work with both juniors
+              and seniors. I learn new things regularly. After several years of experience, I am ready to work with new
+              people with new projects. I can work in any environment. I can learn quickly. But I can't fly &#128512
+            </p>
+            <a href="#portfolio" class="btn btn-danger px-3 mt-3 mb-4">My works</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home section end -->
+
+  <!-- About section start -->
+  <section class="about container- lg py-5 " id="about">
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-little text-center">
+            <h2 class="fw-bold mb-5 text-uppercase">About me </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quod?</h3>
+            <p class="text-muted mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis a hic officia perspiciatis porro,
+              quos
+              laudantium repudiandae, asperiores excepturi in velit inventore! Sint in animi repudiandae libero
+              veritatis? Illo, nisi.
+            </p>
+          </div>
+
+          <div class="row text-center text-uppercase my-5">
+            <div class="col-sm-4">
+              <div class="fact-item number-project">
+                <h4 class="fs-1 fw-bold  ">100</h4>
+                <p class="text-muted"> Project Completed</p>
+              </div>
+            </div>
+            <div class="col-sm-4 number-project">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">90</h4>
+                <p class="text-muted"> Happy Clients </p>
+              </div>
+            </div>
+            <div class="col-sm-4 number-project">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">95</h4>
+                <p class="text-muted"> Positive reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-content-center align-content-center align-items-center">
+            <div class="col-sm-6 ff">
+              <a href="#" class="btn btn-danger btn-cv me-5"> Download CV</a>
+            </div>
+            <div class="col-sm-6 mt-3 ff">
+              <div class="social-links align-content-center">
+                <a href="#" class="text-dark  fs-4 me-3"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-dark github fs-4 me-3"> <i class="fab fa-github"></i></a>
+                <a href="#" class="text-dark  fs-4 me-3"> <i class="fab fa-gitlab"></i></a>
+                <a href="#" class="text-dark  fs-4 me-3"> <i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row"></div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="row px-5">
+            <div class="skill-item mb-4 mt-4 ">
+              <h3 class="fs-6"> Html </h3>
+              <div class="progress " style="height: 5px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6"> Css </h3>
+              <div class="progress" style="height: 4px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6"> Javascript </h3>
+              <div class="progress" style="height: 4px;">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6"> Boostrap </h4>
+                <div class="progress" style="height: 5px;">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    </div>
+  </section>
+  <!-- About section end -->
+
+
+  <section>
+    <div class="container-lg py-4">
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <hr>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services section start -->
+  <section id="services" class="services  py-4">
+    <div class="container-lg py-4">
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-little text-center">
+            <h2 class="fw-bold mb-5 text-uppercase">What i do </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white ">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="fs-5 py-3"> Web developpement </h3>
+            <p class="text-muted"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, omnis.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white ">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class="fs-5 py-3"> Creative design </h3>
+            <p class="text-muted"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, omnis.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white ">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-image"></i>
+            </div>
+            <h3 class="fs-5 py-3"> Photoshop </h3>
+            <p class="text-muted"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, omnis.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Services section end -->
+
+
+  <section>
+    <div class="container-lg py-4">
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <hr>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio Section start -->
+
+  <section class="portfolio" id="portfolio">
+
+    <div class="container-lg py-4">
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-little text-center">
+            <h2 class="fw-bold mb-5 text-uppercase"> My lastest work </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/1.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">Team section </h3>
+            <p class="mb-4"> <a href="#" class="text-danger text-decoration-none"> Live demo </a></p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/2.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">Team section </h3>
+            <p class="mb-4"> <a href="#" class="text-danger text-decoration-none"> Live demo </a></p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/3.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">Team section </h3>
+            <p class="mb-4"> <a href="#" class="text-danger text-decoration-none"> Live demo </a></p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/4.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">Team section </h3>
+            <p class="mb-4"> <a href="#" class="text-danger text-decoration-none"> Live demo </a></p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/5.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">Team section </h3>
+            <p class="mb-4"> <a href="#" class="text-danger text-decoration-none"> Live demo </a></p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/6.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">Team section </h3>
+            <p class="mb-4"> <a href="#" class="text-danger text-decoration-none"> Live demo </a></p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio Section end -->
+
+ 
+  <!-- Freelance available section start -->
+
+  <section class="freelance-available py-5 bg-danger">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="fs-5 text-light "> Do you have any project ?</p>
+          <h2 class="fs-1 text-light mb-4">I'm Available for Freelance Project </h2>
+          <a href="#contact" class="btn btn-outline-light"> Hire Me </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Freelance available section end -->
+
+  <!-- Testamonials section start -->
+  <section id="testimonials">
+    <div class="container-lg py-5 ">
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-little text-center">
+            <h2 class="fw-bold mb-5 text-uppercase"> testimonials </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+
+          <div id="carousel1" class="carousel slide rounded" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger bt-border"
+                aria-current="true" aria-label="Slide 1"></li>
+              <li type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"
+                class="bg-danger bt-border"></li>
+              <li type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"
+                class="bg-danger bt-border"></li>
+            </ol>
+            <div class="carousel-inner p-1 ">
+              <!-- Test Item -->
+              <div class="testi-item carousel-item active  bg-light p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center ">
+                  <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="author image">
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Samuel Calguri</h3>
+                    <p class="text-muted">Full Stck Developper</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus ipsum repudiandae
+                  maiores
+                  recusandae illum vitae, est praesentium voluptate quaerat qui, eos quas eaque deserunt explicabo
+                  expedita? Ipsam, placeat adipisci.
+                </p>
+                <div class="rating text-danger">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- Test Item -->
+
+              <!-- Test Item -->
+              <div class="testi-item carousel-item bg-light  p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center ">
+                  <img src="img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="author image">
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Samuel Calguri</h3>
+                    <p class="text-muted">Full Stck Developper</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus ipsum repudiandae
+                  maiores
+                  recusandae illum vitae, est praesentium voluptate quaerat qui, eos quas eaque deserunt explicabo
+                  expedita? Ipsam, placeat adipisci.
+                </p>
+                <div class="rating text-danger">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- Test Item -->
+
+              <!-- Test Item -->
+              <div class="testi-item carousel-item bg-light  p-4 mb-5 ">
+                <div class="testi-author-info d-flex align-items-center ">
+                  <img src="img/testimonial/3.jpg" class="img-thumbnail rounded-circle" alt="author image">
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Samuel Calguri</h3>
+                    <p class="text-muted">Full Stck Developper</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus ipsum repudiandae
+                  maiores
+                  recusandae illum vitae, est praesentium voluptate quaerat qui, eos quas eaque deserunt explicabo
+                  expedita? Ipsam, placeat adipisci.
+                </p>
+                <div class="rating text-danger">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- Test Item -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Testamonials section end -->
+ 
+
+  <!-- Contact Section Start -->
+
+  <section id="contact">
+    <div class="container-lg py-5">
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-lg-8">
+          <div class="section-little text-center">
+            <h2 class="fw-bold mb-5 text-uppercase"> Contact Me </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5">
+
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5"> Email </h3>
+              <p class="text-muted">fouadarrehzakarieh@gmail.com</p>
+            </div>
+          </div>
+
+
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5"> Telelphone </h3>
+              <p class="text-muted">+33 (0) 6 05 51 63 81</p>
+            </div>
+          </div>
+
+
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5"> Adresse </h3>
+              <p class="text-muted">77500 Chelles, France </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="form-section">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Fullname </label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message </label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <section>
+    <div class="container-lg py-4">
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <hr>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer class="text-dark fw-bold">
+    <div class="container-lg">
+      <div class="row ">
+        <div class="col-md-8">
+          <p> @ Copyright Zakarieh</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
