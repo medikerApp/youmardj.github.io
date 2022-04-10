@@ -1,0 +1,40 @@
+.feature {
+  //background-color:$lightGrayishBlue ;
+
+
+  &__grid {
+
+
+    @include breakpoint-up(large) {
+      display: flex;
+    }
+
+  }
+
+  &__item {
+
+    padding: 15px;
+
+    @include breakpoint-up(xlarge){
+      flex: 0 0 50%;
+    }
+
+    @include breakpoint-up(large) {
+      flex: 1;
+    }
+  }
+
+  &__icon {
+    padding: 12px;
+  }
+
+  &__title {
+    margin-bottom: 5px;
+    font-weight: 800;
+  }
+
+  &__description {
+
+  }
+
+}

@@ -1,0 +1,11 @@
+.hero {
+background: #000;
+color: wheat;
+
+  &__right { 
+  
+  -ms-flex-order: 3;
+    width: 350px;
+    height: 350px;
+  }
+}
