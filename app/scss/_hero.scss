@@ -1,11 +1,96 @@
 .hero {
-background: #000;
-color: wheat;
 
-  &__right { 
-  
-  -ms-flex-order: 3;
-    width: 350px;
-    height: 350px;
+  background-image: url(/images/bg1.png); 
+  background-repeat: no-repeat;
+  padding-top: 4.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.375rem;
+  padding-left: 1.5rem;
+  align-items: center; 
+
+  @include breakpoint-up(large) {}
+
+  flex-wrap: wrap;
+
+  @include breakpoint-down(small) {
+    flex-direction: column-reverse;
+  }
+
+  @include breakpoint-up(meduim) {
+    flex-wrap: nowrap;
+  }
+
+
+
+  &__left {
+    width: 50%;
+    text-align: center;
+
+    @include breakpoint-down(small) {
+      text-align: center;
+      width: auto;
+    }
+
+  }
+
+  &__right {
+    width: 50%;
+    text-align: center;
+
+    @include breakpoint-down(meduim) {
+      margin-bottom: 50px;
+      margin-right: 0px;
+    }
+
+    @include breakpoint-down(small) {
+      width: auto;
+    }
+  }
+
+  &__image {
+    width: auto;
+    height: 470px;
+
+
+    @include breakpoint-down(meduim) {
+      padding-top: 1.8rem !important;
+      width: auto;
+      height: 300px;
+      margin: 0px;
+    }
+
+    @include breakpoint-down(small) {
+      padding-top: 0rem !important;
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+  }
+
+  &__btn {
+    font-size: 0.875rem;
+    color: white;
+    transition: opacity 300ms ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &:hover {
+      opacity: 0.75;
+      color: white;
+    }
+  }
+
+  &__cta {
+    text-align: center;
+    padding: 14px 25px !important;
+
+
+    @include breakpoint-down(meduim) {
+      margin-left: 0px;
+    }
+
+    @include breakpoint-down(small) {
+      margin-left: 0px;
+    }
   }
 }

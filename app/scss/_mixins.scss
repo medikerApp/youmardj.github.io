@@ -1,6 +1,6 @@
 // Breakspoints 
 
-@media(min-width: 64rem){
+@media(min-width: 64rem) {
     // styles go here 
 }
 
@@ -11,14 +11,56 @@ $breakspoints-up: ("meduim":"40rem", "large":"64rem", "xlarge":"87.5rem");
 $breakspoints-down: ("small":"39.9375rem", "meduim":"63.9375rem", "large":"87.4375rem");
 
 // 
-@mixin breakpoint-up ($size){
+@mixin breakpoint-up ($size) {
     @media (min-width:map-get($breakspoints-up, $size)) {
         @content;
     }
 }
 
-@mixin breakpoint-down ($size){
+@mixin breakpoint-down ($size) {
     @media (max-width:map-get($breakspoints-down, $size)) {
         @content;
     }
 }
+
+/*
+
+------------ For ONLY Desktop ------------
+
+  @include breakpoint-up(large) {
+    balbla : blabla ;
+  }
+
+------------ For ONLY Mobile ------------
+
+  @include breakpoint-down(small) {
+    balbla : blabla ;
+  }
+ 
+ ------------ For ONLY Tablet ------------
+
+ 
+ 
+ 
+ 
+
+------------ For ONLY Mobile / Tablet------------
+
+  @include breakpoint-down(meduim) {
+    balbla : blabla ;
+  }
+
+
+ 
+------------ For ONLY Mobile / Tablet------------
+
+  @include breakpoint-down(meduim) {
+    balbla : blabla ;
+  }
+
+
+ 
+
+
+
+*/
